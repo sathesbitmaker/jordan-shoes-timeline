@@ -2,9 +2,38 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.firstDisplay {
+  margin-left: 5%;
+  height: 50vh;
+}
+
+#firstTitle {
+  margin-top: -12%;
+}
+
+.firstTitles {
+  font-size: 550%;
+  margin-bottom: 0px;
+  margin-top: -12%;
+}
+
+.shoePicturesSizeSecond {
+  width: 40%;
+}
+
+.otherTitles {
+  margin: 0.5%;
+  font-size: 220%
+}
+
+.Writing {
+  color: white;
+  background-color: black;
+}
+
+.shoePicturesSize {
+  width: 40%;
+  margin-left: 55%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
