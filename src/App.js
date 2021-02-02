@@ -15,16 +15,14 @@ import AirJordan12 from './shoePictures/AirJordan12.jpg';
 import SecondAirJordan1 from './shoePictures/SecondAirJordan1.jpg'
 
 function FirstPage(props) {
-  return (
-            
+  return (  
     <div className="shoeDisplay">
           <img src={props.pictureName}  className="shoePicturesSize" />
           <h1 className="firstTitles" id={props.first}>{props.name}</h1>
           <h2 className="otherTitles">Designer: {props.designer}</h2>
           <h2 className="otherTitles">Released: {props.released}</h2>
           <h2 className="otherTitles">Original Price: {props.originalPrice}</h2>
-          </div> 
-       
+    </div>
   )
 }
 
@@ -47,15 +45,12 @@ class App extends Component {
 
           <FirstPage  name="Air Jordan II" designer="Peter Moore" released="1986"
                       originalPrice="$100" pictureName={AirJordan2}/>
-
-
+        
           <FirstPage  name="Air Jordan III" designer="Tinker Hatfield" released="1988"
                       originalPrice="$100" pictureName={AirJordan3}/>
 
-           {/* <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'> */}
           <FirstPage  name="Air Jordan IV" designer="Tinker Hatfield" released="1989"
                       originalPrice="$110" pictureName={AirJordan4}/>
-           {/* </ScrollAnimation>  */}
 
           <FirstPage  name="Air Jordan V" designer="Tinker Hatfield" released="1990"
                       originalPrice="$125" pictureName={AirJordan5}/>
@@ -80,10 +75,6 @@ class App extends Component {
 
           <FirstPage  name="Air Jordan XII" designer="Tinker Hatfield" released="1996"
                       originalPrice="$135" pictureName={AirJordan12}/>
-
-
-
-
 
         <div>
             <SecondPage 
